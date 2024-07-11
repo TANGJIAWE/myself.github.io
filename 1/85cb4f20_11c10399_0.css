@@ -1,0 +1,156 @@
+﻿/********** nyf://localhost/${scripts}/css/common.css **********/
+
+a:hover {
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: none;
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyMCA0Jz4KPHBhdGggZmlsbD0nbm9uZScgc3Ryb2tlPSdibHVlJyBkPSdNMCAzLjVjNSAwIDUtMyAxMC0zczUgMyAxMCAzIDUtMyAxMC0zIDUgMyAxMCAzJy8+Cjwvc3ZnPgoK") repeat-x 0 100%;
+	background-size: 20px auto;
+	animation: wave0 1s 10 linear;
+}
+
+@keyframes wave0 {
+	0% { background-position: 0 100%; }
+	100% { background-position: -20px 100%; }
+}
+
+/********** nyf://localhost/${scripts}/css/thread.css **********/
+
+.CLS_THREAD {
+	color: blue;
+	background-color: #e8e8e8;
+	
+}
+
+.CLS_THREAD:hover {
+	cursor: pointer;
+}
+
+.CLS_THREAD:hover {
+	text-decoration: none;
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyMCA0Jz4KPHBhdGggZmlsbD0nbm9uZScgc3Ryb2tlPSdibHVlJyBkPSdNMCAzLjVjNSAwIDUtMyAxMC0zczUgMyAxMCAzIDUtMyAxMC0zIDUgMyAxMCAzJy8+Cjwvc3ZnPgoK") repeat-x 0 100%;
+	background-size: 20px auto;
+	animation: wave0 1s infinite linear;
+}
+
+/********** nyf://localhost/${scripts}/css/toc.css **********/
+
+#ID_NYF_TOC_PANE {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: lightyellow;
+	opacity: 0.8;
+}
+
+.CLS_NYF_TOC_LISTITEM {
+}
+
+.CLS_NYF_TOC_HREF {
+	font-size: small;
+	text-decoration: underline;
+	line-height: 150%;
+}
+
+/********** nyf://appres?id=default-charformat-css-for-html **********/
+
+body, table{font-family: "微软雅黑"; font-size: 9pt}
+
+/********** nyf://localhost/${scripts}/hljs/styles/${SyntaxHighlightStyleName}.css **********/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+
+
+
+.hljs,
+.hljs-subst {
+  color: #444;
+}
+
+.hljs-comment {
+  color: #888888;
+}
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name {
+  font-weight: bold;
+}
+
+
+
+
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #880000;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #BC6060;
+}
+
+
+
+
+.hljs-literal {
+  color: #78A960;
+}
+
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #397300;
+}
+
+
+
+
+.hljs-meta {
+  color: #1f7199;
+}
+
+.hljs-meta-string {
+  color: #4d99bf;
+}
+
+
+
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
